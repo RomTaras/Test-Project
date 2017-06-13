@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ngRadialGauge Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="radial-gauge-ctrl.js"></script>
+    <script src="ng-radial-gauge-dir.js"></script>
+    <script src="d3-serv.js"></script>
+</head>
+<body ng-app="myApp" >
+<div ng-controller="RadialGaugeCtrl">
+   
+    <div width="300" ng-radial-gauge ranges="ranges" value="value" value-unit="unit" precision="precision" lower-limit="lowerLimit" upper-limit="upperLimit"></div>
+    
+</div>
+    
+</body>
+</html>
